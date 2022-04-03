@@ -5,13 +5,13 @@
     <ProjectGuid>cb2cb714-e4a3-4edf-be97-021697dbe782</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>wolframvgkebot.py</StartupFile>
+    <StartupFile>wolframtgbot.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>wolframvgkebot</Name>
-    <RootNamespace>vgkebot</RootNamespace>
+    <Name>wolframtgbot</Name>
+    <RootNamespace>tgbot</RootNamespace>
     <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -23,7 +23,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="wolframvgkebot.py" />
+    <Compile Include="wolframtgbot.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
